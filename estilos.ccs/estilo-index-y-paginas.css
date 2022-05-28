@@ -410,3 +410,36 @@ main .banner img {
 
     }
 }
+
+/*animaciones*/
+
+@keyframes efecto-ofertas {
+    
+    10%{
+        color: red ;
+    }
+
+    50% {
+
+        background-color: black; 
+
+    }
+
+    98% {
+
+        color: black;
+        background-color: white;
+    }
+
+ }
+
+.animacion{
+
+    animation-name: efecto-ofertas;
+    animation-duration: 3s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    
+
+   
+}
