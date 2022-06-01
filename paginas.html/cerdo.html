@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="../imagenes.img/ternerita1.png" type="image/x-icon" />
     <link rel="stylesheet" href="../estilos.ccs/estilo-index-y-paginas.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <title>Cerdo</title>
   </head>
   <body>
@@ -25,26 +26,46 @@
       </nav>
     </header>
     <main>
-      <div class="contenedor">
-        <img class="bondiola" src="../imagenes.img/bondiola.jpeg" alt="bondiola">
-        <img class="carre" src="../imagenes.img/carre-deshuesado.jpg" alt=" carre">
-        <img class="chorizos" src="..//imagenes.img/chorizos.jpg" alt="chorizos">
-      </div>
+      
       <h2 class="cortes">Cortes de Cerdo</h2>
-      <section class="lista">
-        <ul>
-          <li>Carre deshuesado</li>
-          <img class="carre" src="../imagenes.img/carre-deshuesado.jpg" alt=" carre">
-          <li>Bondiola</li>
-          <img class="bondiola" src="../imagenes.img/bondiola.jpeg" alt="bondiola">
-          <li>Costillitas</li>
-          <img class="costillitas" src="../imagenes.img/costillitas-de-cerdo.jpg" alt="">
-          <li>Chorizos</li>
-          <img  class="chorizos" src="../imagenes.img/chorizos.jpg" alt="">
-          <li>Pechito</li>
-          <img class="pechito" src="../imagenes.img/Pechito.jpg" alt="">
-        </ul>
-      </section>
+      <div class="row row-cols-1 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card bg-danger" >
+            <img src="../imagenes.img/bondiola.jpeg" class="card-img-top" alt="bondiola">
+            <div class="card-body">
+              <h4 class="card-title">Bondiola</h4>
+              <p class="card-text"> Para la parrilla, para el horno, a la sarten... un corte muy versatil y delicioso que nos aporta el cerdo </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card bg-danger">
+            <img src="../imagenes.img/chorizos.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4 class="card-title">Card title</h4>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card bg-danger">
+            <img src="../imagenes.img/carre-deshuesado.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4 class="card-title">Card title</h4>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card bg-danger">
+            <img src="../imagenes.img/Pechito-de-cerdo.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4 class="card-title">Card title</h4>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
     <footer class="footer">
       <div class="nosotros" >
@@ -60,5 +81,6 @@
         <p>Medios de pago</p>
       </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>  
   </body>
 </html>
