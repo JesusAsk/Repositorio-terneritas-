@@ -447,32 +447,24 @@ main .banner img {
             display: none;
     
     }
-    
-}
-
-
-@media screen and (max-width : 768px) {
     .encabezado .otros {
         font-size: 13px;
 
-    }
-}
+    } 
 
-
-@media screen and (max-width : 768px) {
     .encabezado .nosotros {
         font-size: 20px;
 
     }
 
-}
 
-@media screen and (max-width : 768px) {
     .encabezado .ubicacion {
         font-size: 13px;
 
     }
 }
+
+
 
 /*animaciones*/
 
