@@ -36,8 +36,8 @@ body {
 .nav-item .nav-link{
 
         font-size: 28px;
-        color: red;
-        text-shadow: 0 0 1px rgb(0, 0, 0), -1px -1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0), 1px 1px 0 rgb(0, 0, 0)
+        color: rgb(255, 255, 255);
+        text-shadow: 0 0 1px #ff0000, -1px -1px #ff0000, 1px -1px #ff0000, -1px 1px #000000, 1px 1px #ff0000
 
 }
  .encabezado h1 {
@@ -205,6 +205,11 @@ main .banner img {
     list-style: none;
 }
 
+.card {
+    color: #000000;
+    background-color: rgb(236, 18, 18) !important; 
+}
+
 .entraña {
     width: 300px;
     height: 91px;
@@ -228,7 +233,7 @@ main .banner img {
 }
 
 .finos {
-    padding-top: 0px;
+    padding-top: 6px;
     text-align: center;
     font-size: 45px;
 }
