@@ -38,7 +38,7 @@ body {
 
         font-size: 28px;
         color: rgb(255, 255, 255);
-        text-shadow: 0 0 1px #ff0000, -1px -1px #ff0000, 1px -1px #ff0000, -1px 1px #000000, 1px 1px #ff0000
+        text-shadow: 0 0 1px #ff0000, -1px -1px #ff0000, 1px -1px #ff0000, -1px 1px #ffffff, 1px 1px #ff0000
 
 }
  .encabezado h1 {
