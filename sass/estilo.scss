@@ -70,9 +70,7 @@ body {
     text-shadow: 0 0 1px rgb(255, 255, 255), -1px -1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255), -1px 1px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255);
     margin-top: 0px;
 
-}
-
-.encabezado  h2 {
+    & h2 {
     display: flex;
     padding-top: 6px;
     font-size: 60px;
@@ -80,10 +78,7 @@ body {
     color: black;
     text-shadow: 0 0 1px rgb(255, 255, 255), -1px -1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255), -1px 1px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255);
     
-}
-
-
-   .encabezado nav li {
+       & nav li {
         list-style: none;
         display: flex;
         display: inline-block;
@@ -101,6 +96,5 @@ body {
             text-decoration: none;
         }
     }
-
-
-       
+  }
+}
