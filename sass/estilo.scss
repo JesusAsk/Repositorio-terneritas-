@@ -98,3 +98,64 @@ body {
     }
   }
 }
+
+
+.main {
+    
+    .banner {
+
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 5px;
+        margin: 0px;
+        padding: 5px;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    h2{
+
+        margin: 5px;
+        height: 52px;
+        padding-top: 5px;
+        text-align: center;
+        justify-content: center;
+        background-color: rgb(255, 255, 255);
+        border: solid 3px rgb(255, 0, 0);
+        color: red;
+
+    }
+
+    .ofertas {
+
+        display: grid;
+        justify-items: center;
+        padding: 10px 10px 10px 10px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 200px 200px 200px 200px;
+        gap: 10px;
+        font-size: 30px;
+
+        div {
+
+            padding-top: 26px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            border: solid 3px #ff0000;
+
+            span {
+
+                font-size: 20px;
+                text-align: center;
+                padding-top: 7px;
+
+            }
+
+        }
+
+    }
+
+}

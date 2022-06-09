@@ -100,7 +100,6 @@ a {
 }
 
 main .banner {
-    display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 5px;
     margin: 0px;
