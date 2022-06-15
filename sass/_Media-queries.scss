@@ -1,0 +1,68 @@
+@media screen and (max-width: 480px) {
+
+    .navegador .lista-menu {
+        
+        display: none;
+
+    }
+
+
+      .encabezado h1 {
+
+        padding-top: 30px;
+        font-size: 42px;
+    }
+
+    .encabezado h2 {
+        font-size: 50px;
+    }
+
+    .ofertas div span {
+
+        font-size: 20px;
+        text-align: center;
+        padding-top: 7px;
+    }
+
+   }
+
+@media screen and ( min-width: 768px) {
+
+    .navbar-toggler {
+        display: none; 
+     }
+
+ .encabezado h1 {
+            padding-top: 33px;
+        }
+        
+}
+
+
+@media screen and (max-width: 768px) {
+    main .banner {
+        display: none; 
+    
+    }
+        
+    .navegador .lista-menu {
+        
+            display: none;
+    
+    }
+    .encabezado .otros {
+        font-size: 13px;
+
+    } 
+
+    .encabezado .nosotros {
+        font-size: 20px;
+
+    }
+
+
+    .encabezado .ubicacion {
+        font-size: 13px;
+
+    }
+}
