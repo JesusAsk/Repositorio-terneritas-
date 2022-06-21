@@ -6,7 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Carniceria y Granja Las Ternritas</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="descrition" content= "Carniceria y granja Las Terneritas, productos de primera calidad siempre garantizados, carne premium de ternera seleccionada, pollo sapucai , cerdo todos los dias fresco , congelados Mccain y mucho mas" />
+  <meta name="descrition"
+    content="Carniceria y granja Las Terneritas, productos de primera calidad siempre garantizados, carne premium de ternera seleccionada, pollo sapucai , cerdo todos los dias fresco , congelados Mccain y mucho mas" />
   <meta name="keywords" content=" Carniceria, granja , Ternera , Asado , Vacio , Entraña, Premiun">
   <link rel="shortcut icon" href="./imagenes.img/ternerita1.png" type="image/x-icon" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -15,10 +16,11 @@
 
 </head>
 
-<body>
+<body id="principal">
+
   <header class="encabezado">
     <nav class="navbar bg-#000000">
-      <div class="container">
+      <div class="container1">
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
           aria-controls="offcanvasNavbar">
           <span class="navbar-toggler-icon"></span>
@@ -71,67 +73,83 @@
 
     </section>
 
-    <h2 class="animacion"> OFERTAS</h2>
-    <section class="ofertas">
-      <div>
-        <img src="./imagenes.img/carne-picada.jpg" alt="picada" width="200px " height="133.33" />
+    <div class="container px-4 px-lg-5">
+      <div class="row gx-4 gx-lg-5 align-items-center my-5">
+        <div class="col-lg-7"><img class="img-fluid rounded mb-4 mb-lg-0" src="./imagenes.img/hereford.jpg"
+            alt="ganado hereford" /></div>
+        <div class="col-lg-5">
+          <h3 class="font-weight-light h3-las-terneritas"> Las Terneritas</h3>
+          <p class="texto-ganado">
+            En nuestro negocio le ofrecemos la mejor experiencia en carnes a nuestros clientes, siempre con carne
+            selecionada de ternera. En nuestro proceso de selecion del ganado buscamos la consistencia en tamaño de los
+            terneros para siempre llevar el mismo producto a la mesa de nuestros clientes.
+          </p>
+        </div>
       </div>
-      <div>
-        <span>
-          Carne picada especial x 2 kg especial para pastel de papa ,
-          hamburguesas , boloñesa entre otras preparaciones</span>
+      <div class="fondo-inicio">
+        <section id="scroll">
+          <div class="container px-5">
+            <div class="row gx-5 align-items-center">
+              <div class="col-lg-6 order-lg-2">
+                <div class="p-2"><img class="img-fluid rounded" src="./imagenes.img/carnicero.jpg" alt="carnicero" />
+                </div>
+              </div>
+              <div class="col-lg-6 order-lg-1">
+                <div class="p-5 ">
+                  <h4 class="display-4 tarjetas">Nuestros Carniceros</h4>
+                  <p class="tarjeta-contenido">Tenemos a carniceros dedicados y especializados en dar el mejor servicio
+                    en cada uno de los requerimientos de los clientes, tanto en la atencion al mostrador como en el
+                    trabajo de desposte y limpieza.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div class="container px-5">
+            <div class="row gx-5 align-items-center">
+              <div class="col-lg-6">
+                <div class="p-2"><img class="img-fluid rounded" src="./imagenes.img/costillar.jpg"
+                    alt="costillar de ternera" /></div>
+              </div>
+              <div class="col-lg-6">
+                <div class="p-5">
+                  <h4 class="display-4 tarjetas">Asado de Costilla</h4>
+                  <p class="tarjeta-contenido">Nuestra insignia, lo que nos hace diferentes , nuestra estrella el Asado
+                    de Costilla de ternera. promediando por cotillar 6 kilos garantizando asi el producto de mejor
+                    calidad. EL MEJOR ASADO DE QUILMES. </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div class="container px-5">
+            <div class="row gx-5 align-items-center">
+              <div class="col-lg-6 order-lg-2">
+                <div class="p-2"><img class="img-fluid rounded" src="./imagenes.img/vacio.jpg" alt="vacio de ternera" />
+                </div>
+              </div>
+              <div class="col-lg-6 order-lg-1">
+                <div class="p-5">
+                  <h4 class="display-4 tarjetas"> Vacio </h4>
+                  <p class="tarjeta-contenido">Tambien uno de nuestro productos insignia, siempre totalmente desgrasado
+                    , especial para llevar entero y hacer al asador. Promediando 4kg siendo asi un producto estrella de
+                    nuestro servicio.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
-      <div>
-        <img src="./imagenes.img/osobuco.jpg" alt="osobuco" width="200px" height="133.33" />
+      
+      <div id="Ubicacion">
+        <iframe class="mapa"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3279.335133083129!2d-58.256925585048194!3d-34.72194597126983!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a32e40587c8935%3A0xb86c6ed76f14636c!2sLas%20Terneritas!5e0!3m2!1ses-419!2sar!4v1651274770667!5m2!1ses-419!2sar"
+          width="400" height="250" style="border: 0" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
       </div>
-      <div>
-        <span>
-          Osobuco especial sin grasa x 2kg , especial para el invierno ,
-          estofados, guisos, pucheros y mas.</span>
-      </div>
-      <div>
-        <img src="./imagenes.img/bife-ancho.jpg" alt="" width="200px" height="133.33" />
-      </div>
-      <div>
-        <span>
-          Bife ancho especial x 2kg , ideal para la parrilla o para la plancha
-          , lo mas tierno y lo mejor
-        </span>
-      </div>
-
-      <div>
-        <img src="./imagenes.img/tapa-de-asado.jpg" alt="" width="200px" height="133.33" />
-      </div>
-
-      <div >
-        <span> Tapa de Asado sin grasa x pieza entera, ideal para la parrilla , para hacer rellena o para guisar,
-          ternura garantizada</span>
-      </div>
-    </section>
-    <div class= "Trabajo paleta-colores">
-      <p >
-        Carniceria Las Terneritas te ofrece carne premium completamente
-        desgrasada, brindando en el mercado la mejor relacion precio -
-        calidad. Así podes disfrutar de la mejor carne Argentina en cada una
-        de tus comidas
-      </p>
-    </div>
-    <div class="carniceros">
-      <p>Tenemos a carniceros dedicados y especializados en dar el mejor servicio en cada uno de los requerimientos de los clientes, tanto en la atencion al mostrador como en el trabajo de desposte.
-      </p>
-    </div>
-    <div class="garantia" >
-      <p>
-        Si te llevas algunos de nuestros productos y no cumple con tus espectativas, traelo lo revisamos y si cumple con una serie de condiciones te lo cambiamos sin ningun costo.  
-      </p>
-    </div>
-    <div id="Ubicacion">
-      <iframe class="mapa"
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3279.335133083129!2d-58.256925585048194!3d-34.72194597126983!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a32e40587c8935%3A0xb86c6ed76f14636c!2sLas%20Terneritas!5e0!3m2!1ses-419!2sar!4v1651274770667!5m2!1ses-419!2sar"
-        width="400" height="250" style="border: 0" allowfullscreen="" loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade">
-      </iframe>
-    </div>
   </main>
   <footer id="Nosotros" class="footer">
     <div class="nosotros-footer">
@@ -152,7 +170,7 @@
       <p>No aceptamos American Express</p>
     </div>
   </footer>
-  
+
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"

@@ -10,7 +10,17 @@ body {
 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
+    
 }
+
+/*#principal {
+
+    background-image: url(..//imagenes.img/fondo.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+} */
 
 .encabezado {
 
@@ -21,7 +31,7 @@ body {
     background-color: black;
     border: solid 6px red;
  
-    .container {
+    .container1{
         margin-right: auto;
         margin-left: 5px;
 
@@ -136,7 +146,25 @@ main {
 
     }
 }
+
+.h3-las-terneritas {
+
+    font-size: 60px;
+}
     
+.texto-ganado{
+    font-size: 20px;
+}
+
+.tarjetas {
+    text-align: center;
+}
+
+.tarjeta-contenido {
+
+    font-size: 20px;
+
+}
     .ofertas {
 
         display: grid;
