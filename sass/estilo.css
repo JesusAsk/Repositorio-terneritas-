@@ -145,6 +145,10 @@ main h2 {
   font-size: 20px;
 }
 
+.container {
+  margin: auto;
+}
+
 .tarjetas {
   text-align: center;
 }
@@ -219,7 +223,7 @@ main h2 {
   width: 70%;
 }
 
-.Trabajo, .carniceros {
+.Trabajo {
   border: solid black;
   border-radius: 50px;
   padding-top: 25px;
@@ -228,7 +232,8 @@ main h2 {
 }
 
 .mapa {
-  padding-top: 20px;
+  height: 420px;
+  padding: 20px 20px 20px 20px;
   width: 100%;
 }
 
@@ -257,13 +262,52 @@ main h2 {
   list-style: none;
 }
 
-.card {
-  color: #000000;
-  background-color: #ec1212 !important;
+.container-fluid {
+  margin: auto;
+  padding-bottom: 20px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.container-fluid .col :hover {
+  color: white;
+  background-color: #ec1212;
+  -webkit-box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.2);
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+  border-radius: 3px;
+  -webkit-transform: translateY(-0.2%);
+          transform: translateY(-0.2%);
+}
+
+.container-fluid .col :hover .card-title:hover {
+  color: white;
+  background-color: #ec1212;
+  -webkit-box-shadow: 5px 10px 10px #ec1212;
+          box-shadow: 5px 10px 10px #ec1212;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+  border-radius: 3px;
+  -webkit-transform: translateY(-0.2%);
+          transform: translateY(-0.2%);
+}
+
+.container-fluid .col :hover .card-text:hover {
+  color: white;
+  background-color: #ec1212;
+  -webkit-box-shadow: 5px 10px 10px #ec1212;
+          box-shadow: 5px 10px 10px #ec1212;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+  border-radius: 3px;
+  -webkit-transform: translateY(-0.2%);
+          transform: translateY(-0.2%);
 }
 
 .entraña {
-  width: 300px;
+  width: 400px;
   height: 91px;
 }
 
@@ -283,9 +327,9 @@ main h2 {
 }
 
 .finos {
+  color: black;
   padding-top: 6px;
   text-align: center;
-  font-size: 45px;
 }
 
 .lista ul {
@@ -461,23 +505,16 @@ main h2 {
   .encabezado .ubicacion {
     font-size: 13px;
   }
+  .card {
+    color: white;
+    background-color: #ec1212;
+  }
 }
 
-.paleta-colores, .carniceros, .garantia {
-  background-color: red;
-  border: solid black 2px;
-}
-
-.carniceros {
-  margin-top: 20px;
-}
-
-.garantia {
-  border: solid black;
-  border-radius: 50px;
-  padding-top: 25px;
-  font-size: 25px;
-  text-align: center;
-  margin-top: 20px;
+@media screen and (max-width: 480px) {
+  .card {
+    color: white;
+    background-color: #ec1212;
+  }
 }
 /*# sourceMappingURL=estilo.css.map */
