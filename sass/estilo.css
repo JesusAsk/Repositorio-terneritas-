@@ -134,7 +134,6 @@ main h2 {
           justify-content: center;
   background-color: white;
   border: solid 3px red;
-  color: red;
 }
 
 .h3-las-terneritas {
@@ -515,6 +514,9 @@ main h2 {
   .card {
     color: white;
     background-color: #ec1212;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 /*# sourceMappingURL=estilo.css.map */
