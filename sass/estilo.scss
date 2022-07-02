@@ -7,21 +7,24 @@
 
 
 body {
-
+    color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 
 
 }
 
-/*#principal {
+#principal {
 
-    background-image: url(..//imagenes.img/fondo.jpg);
+    background-image: url(../imagenes.img/fondo.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
+    backdrop-filter: blur(15px);
 
-} */
+
+
+} 
 
 .encabezado {
 
@@ -122,19 +125,6 @@ body {
 
 main {
 
-    .banner {
-
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        gap: 5px;
-        margin: 0px;
-        padding: 5px;
-
-        img {
-            width: 100%;
-        }
-    }
-
     h2 {
 
         margin: 5px;
@@ -171,74 +161,6 @@ main {
 
 }
 
-.ofertas {
-
-    display: grid;
-    justify-items: center;
-    padding: 10px 10px 10px 10px;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 200px 200px 200px 200px;
-    gap: 10px;
-    font-size: 30px;
-
-    div {
-
-        padding-top: 26px;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        border: solid 3px #ff0000;
-
-        span {
-
-            font-size: 20px;
-            text-align: center;
-            padding-top: 7px;
-
-        }
-
-    }
-
-}
-
-
-
-
-.ofertas {
-
-    display: grid;
-    justify-items: center;
-    padding: 10px 10px 10px 10px;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 200px 200px 200px 200px;
-    gap: 10px;
-    font-size: 30px;
-
-
-}
-
-.ofertas div {
-    padding-top: 26px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    border: solid 3px #ff0000;
-}
-
-.ofertas div span {
-
-    font-size: 20px;
-    text-align: center;
-    padding-top: 7px;
-}
-
-
-.ofertas img {
-
-    width: 70%;
-
-}
-
 
 .Trabajo {
     border: solid black;
@@ -254,21 +176,17 @@ main {
     padding: 20px 20px 20px 20px;
     width: 100%;
 }
-
 .footer {
-    display: flex;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 5px;
-    justify-content: center;
-    width: 100%;
-    height: 100px;
-    padding-top: 15px;
-    padding-left: 5px;
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
+    
+   padding-top: 15px; 
+    
 }
 
+.numero {
+
+    font-size: 30px;
+    text-decoration: solid;
+}
 
 .nav-link {
 
@@ -279,10 +197,16 @@ main {
 
 .container-fluid {
 
-
+    color: rgb(255, 255, 255);
     margin: auto;
     padding-bottom: 20px;
     justify-content: space-evenly;
+
+    .card {
+
+        background-color: rgb(230, 87, 87);
+        
+    }
 
     .col :hover {
 
@@ -292,12 +216,13 @@ main {
         transition: all 200ms ease;
         border-radius: 3px;
         transform: translateY(-0.2%);
+        
+        
 
         .card-title:hover {
 
             color: rgb(255, 255, 255);
             background-color: rgb(236, 18, 18);
-            ;
             box-shadow: 5px 10px 10px rgb(236, 18, 18);
             transition: all 300ms ease;
             border-radius: 3px;
@@ -309,7 +234,6 @@ main {
 
             color: rgb(255, 255, 255);
             background-color: rgb(236, 18, 18);
-            ;
             box-shadow: 5px 10px 10px rgb(236, 18, 18);
             transition: all 300ms ease;
             border-radius: 3px;
@@ -321,104 +245,28 @@ main {
 }
 
 
-
-.entraña {
-
-    width: 400px;
-    height: 91px;
-}
-
-
-.peceto {
-    width: 300px;
-    height: 91px;
-}
-
-
-.lomo {
-    width: 300px;
-    height: 91px;
-}
-
-.colita {
-    width: 300px;
-    height: 91px;
-}
-
 .finos {
     color: black;
     padding-top: 6px;
     text-align: center;
+    
 
 }
 
-.lista ul {
-    padding-top: 25px;
-    margin-left: 100px;
-
-}
-
-.lista ul li {
-
-    display: inline-block;
-    border: solid 2px red;
-    margin-left: 25px;
-}
 
 /*aves */
 
+main {
 
-.contenedor-pollo {
 
-    display: grid;
-    justify-items: center;
-    padding: 10px 10px 10px 10px;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 200px 200px 200px 200px;
-    gap: 10px;
-    font-size: 30px;
+    .contenedor-pollo {
 
+        margin-top: 25px;
+        text-align: center;
+
+        
+    }
 }
-
-.contenedor-pollo div {
-    padding-top: 26px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    border: solid 3px red;
-}
-
-.contenedor-pollo div span {
-
-    font-size: 20px;
-    text-align: center;
-    padding-top: 7px;
-}
-
-
-.contenedor-pollo img {
-
-    width: 70%;
-
-}
-
-.pata-muslo {
-    width: 300px;
-    height: 91px;
-}
-
-.supremas {
-    width: 300px;
-    height: 91px;
-
-}
-
-.pollo-entero {
-    width: 300px;
-    height: 91px;
-
-}
-
 
 /*cerdo */
 
