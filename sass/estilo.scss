@@ -16,11 +16,14 @@ body {
 
 #principal {
 
+
+    
     background-image: url(../imagenes.img/fondo.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     backdrop-filter: blur(15px);
+    overflow-x: hidden;
 
 
 
@@ -178,7 +181,8 @@ main {
 }
 .footer {
     
-   padding-top: 15px; 
+   padding-top: 50px; 
+   padding-bottom: 30px;
     
 }
 
@@ -206,6 +210,17 @@ main {
 
         background-color: rgb(230, 87, 87);
         
+        .parrafo:hover {
+          
+            color: rgb(255, 255, 255);
+            background-color: rgb(236, 18, 18);
+            box-shadow: 1px 1px 1px rgb(236, 18, 18);
+            transition: all 350ms ease;
+            border-radius: 3px;
+            transform: translateY(0%);
+
+
+        }
     }
 
     .col :hover {
@@ -239,6 +254,7 @@ main {
             border-radius: 3px;
             transform: translateY(-0.2%);
 
+            
 
         }
     }
@@ -270,88 +286,9 @@ main {
 
 /*cerdo */
 
-.bondiola {
-    width: 300px;
-    height: 91px;
-}
-
-.chorizos {
-    width: 300px;
-    height: 91px;
-}
-
-.carre {
-    width: 300px;
-    height: 91px;
-}
-
-.cortes {
-    font-size: 50px;
-    text-align: center;
-}
-
-.costillitas {
-    width: 300px;
-    height: 91px;
-}
-
-.pechito {
-    width: 300px;
-    height: 91px;
-
-}
-
-/* otros productos */
 
 
-.congelados {
 
-    text-align: center;
-}
-
-.baston {
-
-    width: 300px;
-    height: 91px;
-
-}
-
-.caritas {
-
-    width: 300px;
-    height: 91px;
-
-
-}
-
-.bolitas {
-
-    width: 300px;
-    height: 91px;
-}
-
-.patitas {
-    width: 300px;
-    height: 91px;
-}
-
-.nosotros-footer {
-
-    border: solid 3px red;
-
-}
-
-.ayuda {
-
-    border: solid 3px red;
-
-}
-
-.pagos {
-
-    border: solid 3px red;
-
-}
 
 
 @import "Media-queries";
