@@ -15,8 +15,8 @@ body {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  -webkit-backdrop-filter: blur(15px);
-          backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15%);
+          backdrop-filter: blur(15%);
   overflow-x: hidden;
 }
 
